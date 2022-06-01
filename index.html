@@ -1,26 +1,35 @@
 <!DOCTYPE html>
 <html lang="pl">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wizytówka</title>
-    <link href="normalize.css" rel="stylesheet" type="text/css">
-    <link href="style.css" rel="stylesheet" type="text/css">
-</head>
-<body>
-<main class="main">
-    <article>
-        <img class="img" src="Olivia2.png" alt="Olivia Klepacka">
-        <header>
-            <h1>Olivia Klepacka</h1>
-            <p>frontend developer</p>
-            <p>Z wykształcenia architektka z kilkuletnim doświadczeniem, z zamiłowania architektka wnętrz a także graficzka. W wolnych chwilach gotuje, pływa. Ostatnio również programuje.
-                </p>
-            <p>W sieci: Facebook, GitHub, Instagram.</p>
+    <link href="normalize.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href='https://fonts.googleapis.com/css?family=Fira Code' rel='stylesheet'>
+
+  </head>
+  <body>
+    <main class="main">
+      <article class="person">
+        <img class="person__picture" src="Olivia2.png" alt="Olivia Klepacka" />
+        <div>
+        <header class="person__info">
+          <h1 class="person__name">Olivia Klepacka</h1>
+          <p class="person__position">frontend developer</p>
+          <p class="person__description">
+            Z wykształcenia architektka z kilkuletnim doświadczeniem, z
+            zamiłowania architektka wnętrz a także graficzka. W wolnych chwilach
+            gotuje, pływa, chodzi po górach. Ostatnio również programuje.
+          </p>
+          <p class="person__description--margin">
+            W sieci: <a class="special" href='https://www.facebook.com/olivia.klepacka/'>Facebook</a>, <a class="special" href='https://github.com/olivia4k'>GitHub</a>.
+          </p>
+        
         </header>
-    </article>
-</main>
-    
-</body>
+        </div>
+      </article>
+    </main>
+  </body>
 </html>

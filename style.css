@@ -1,20 +1,70 @@
-body {
-    background: #E0E3FF;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
+html {
+  box-sizing: border-box;
+}
 
+* *:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-image: url('1015.jpg');
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: "Fira Code", 'Courier New', Courier, monospace;
 }
 .main {
-    background: #F8F8F8;
-    border-radius: 16px;
-    width: 624px;
-    margin: 16px;
+  background: #ffffff75;
+  border-radius: 16px;
+  width: 624px;
+  margin: 16px;
+  padding: 32px;  
+}
+
+.person {
+    display: flex;
+
+
+}
+.person__info {
+    margin-bottom: 24px;
+}
+.person__name {
+    font-size: 36px;
+    margin: 0;
+    font-weight: normal;
     
+}
+.person__position {
+    font-size: 18px;
+    color: #545454;
+}
+
+.person__description {
+    font-size: 15px;
+    color: #7377A4;
+    line-height: 22px;
+}
+
+.person__description--margin {
+    margin-top: 22px;
 
 }
 
-.img {
-    height: 200px;
+
+
+.person__picture {
+    max-height: 250px;
+    margin-right: 32px;
 }
+
+.special {
+    font-weight: normal;
+    text-decoration: none;
+    color: #545454;
+
+}
+
